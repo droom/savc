@@ -1,0 +1,236 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Istok Web', sans-serif;
+  background: #2a3e40;
+  margin: 0;
+}
+
+header {
+  padding: 30px 0 40px 0;
+  background: #B9B5B5;
+}
+
+header .letter-wrap {
+  width: 360px;
+  margin: auto;
+  position: relative;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+section.main {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 100px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  opacity: 0.3;
+  position: relative;
+  text-align: center;
+  margin: 70px 0 40px 0;
+}
+
+a,
+small {
+  font-size: 10px;
+  font-weight: 200;
+  color: #f3f3f3;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  text-decoration: none;
+}
+
+a {
+  opacity: 0.8;
+  padding: 14px 14px 13px 18px;
+  margin: 0 0 30px 0;
+  display: inline-block;
+  background: #1b2728;
+  border-radius: 1px;
+  -webkit-transition: all 150ms ease;
+  transition: all 150ms ease;
+}
+
+a:hover {
+  color: #1b2728;
+  background: #fcd162;
+}
+
+.letter-s,
+.letter-i,
+.letter-x,
+.letter-l,
+.letter-e,
+.letter-a,
+.letter-v,
+.letter-e2,
+.letter-s2 {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  padding: 22px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.letter-s,
+.letter-i,
+.letter-x {
+  fill: #fbd269;
+}
+
+.letter-l,
+.letter-e,
+.letter-a,
+.letter-v,
+.letter-e2,
+.letter-s2 {
+  fill: #f2f2f2;
+}
+
+@media (max-width: 500px) {
+  header .letter-wrap {
+    width: 225px;
+    height: 225px;
+  }
+  .letter-s {
+    top: 0px;
+    left: 0px;
+  }
+  .letter-i {
+    top: 75px;
+    left: 75px
+  }
+  .letter-x {
+    top: 150px;
+    left: 150px;
+  }
+  .letter-l {
+    top: 0px;
+    left: 75px;
+  }
+  .letter-e {
+    top: 0px;
+    left: 150px;
+  }
+  .letter-a {
+    top: 75px;
+    left: 0px;
+  }
+  .letter-v {
+    top: 75px;
+    left: 150px;
+  }
+  .letter-e2 {
+    top: 150px;
+    left: 0px;
+  }
+  .letter-s2 {
+    top: 150px;
+    left: 75px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 900px) {
+  header .letter-wrap {
+    width: 375px;
+    height: 225px;
+  }
+  .letter-s {
+    top: 150px;
+    left: 0px;
+  }
+  .letter-i {
+    top: 75px;
+    left: 75px
+  }
+  .letter-x {
+    top: 0px;
+    left: 150px;
+  }
+  .letter-l {
+    top: 150px;
+    left: 75px;
+  }
+  .letter-e {
+    top: 75px;
+    left: 150px;
+  }
+  .letter-a {
+    top: 0px;
+    left: 225px;
+  }
+  .letter-v {
+    top: 150px;
+    left: 150px;
+  }
+  .letter-e2 {
+    top: 75px;
+    left: 225px;
+  }
+  .letter-s2 {
+    top: 0px;
+    left: 300px;
+  }
+}
+
+@media (min-width: 901px) {
+  header .letter-wrap {
+    width: 675px;
+    height: 73px;
+  }
+  section.main {
+    padding-top: 252px;
+  }
+  .letter-s {
+    top: 75px;
+    left: 0px;
+  }
+  .letter-i {
+    top: 0px;
+    left: 75px
+  }
+  .letter-x {
+    top: 75px;
+    left: 150px;
+  }
+  .letter-l {
+    top: 0px;
+    left: 225px;
+  }
+  .letter-e {
+    top: 75px;
+    left: 300px;
+  }
+  .letter-a {
+    top: 0px;
+    left: 375px;
+  }
+  .letter-v {
+    top: 75px;
+    left: 450px;
+  }
+  .letter-e2 {
+    top: 0px;
+    left: 525px;
+  }
+  .letter-s2 {
+    top: 75px;
+    left: 600px;
+  }
+}
